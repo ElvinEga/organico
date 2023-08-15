@@ -7,27 +7,32 @@ import {
   SunIcon,
 } from "@heroicons/react/24/solid";
 
-import benefitOneImg from "../public/img/benefit-one.png";
-import benefitTwoImg from "../public/img/benefit-two.png";
+import benefitOneImg from "../public/img/box_ripe.jpg";
+import benefitTwoImg from "../public/img/countryside_woman.jpg";
 
 const benefitOne = {
-  title: "Highlight your benefits",
-  desc: "You can use this space to highlight your first benefit or a feature of your product. It can also contain an image or Illustration like in the example along with some bullet points.",
+  title: "Smart Farming is Changing the Game",
+  desc: "From increased efficiency and productivity to environmental sustainability and competitive advantage, discover the many benefits of embracing smart farming technology.",
   image: benefitOneImg,
   bullets: [
     {
-      title: "Understand your customers",
-      desc: "Then explain the first point breifly in one or two lines.",
+      title: "Increased efficiency",
+      desc: " Automates and optimizes farming processes to save time and resources.",
       icon: <FaceSmileIcon />,
     },
     {
-      title: "Improve acquisition",
-      desc: "Here you can add the next benefit point.",
+      title: "Reduced costs",
+      desc: "Minimizes resource waste and unnecessary expenses, maximizing profitability for farmers.",
       icon: <ChartBarSquareIcon />,
     },
     {
-      title: "Drive customer retention",
-      desc: "This will be your last bullet point in this section.",
+      title: "Scalability",
+      desc: "Adapts to the unique needs of small, medium, or large-scale farming operations, making it accessible to all.",
+      icon: <CursorArrowRaysIcon />,
+    },
+    {
+      title: "Competitive Advantage",
+      desc: "Differentiates farmers who adopt the solution, giving them an edge in the market and increasing their reputation and revenue.",
       icon: <CursorArrowRaysIcon />,
     },
   ],
@@ -39,22 +44,21 @@ const benefitTwo = {
   image: benefitTwoImg,
   bullets: [
     {
-      title: "Mobile Responsive Template",
-      desc: "Nextly is designed as a mobile first responsive template.",
+      title: "Collaboration",
+      desc: "Facilitates knowledge sharing and collaboration among farmers, clients, and industry experts, driving innovation and progress in agriculture..",
       icon: <DevicePhoneMobileIcon />,
     },
     {
-      title: "Powered by Next.js & TailwindCSS",
-      desc: "This template is powered by latest technologies and tools.",
+      title: "Environmental sustainability",
+      desc: "Promotes eco-friendly practices, conserving resources and protecting the environment for future generations.",
       icon: <AdjustmentsHorizontalIcon />,
     },
     {
-      title: "Dark & Light Mode",
-      desc: "Nextly comes with a zero-config light & dark mode. ",
+      title: "Increased traceability",
+      desc: " Ensures transparency and accountability across the supply chain, building trust with end-consumers.",
       icon: <SunIcon />,
     },
   ],
 };
 
-
-export {benefitOne, benefitTwo};
+export { benefitOne, benefitTwo };
