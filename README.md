@@ -1,65 +1,64 @@
-<p align="center">
- <a href="https://web3templates.com/?ref=nextly_github_logo">
- <img src="https://user-images.githubusercontent.com/1884712/132941531-0fdd7acf-47ca-424e-b77f-1fab2e372a37.png" alt="W3T" width="100" height="41"/>
- </a> 
- <br>
- <br>
-</p>
+# Organico - Smart Farming App Landing Page
 
-# Nextly - Landing Page Template with Next.js & Tailwind CSS
+Welcome to the README file for Organico, a landing site for a Smart Farming App. This project utilizes Next.js for frontend development and Tailwind CSS for styling. It is designed to showcase the features and benefits of the Smart Farming App, attracting potential users and investors.
 
-Nextly is a free landing page & marketing website template for  startups and indie projects. Its built with Next.js & TailwindCSS.
-And its completely open-source.
- 
-![image](https://user-images.githubusercontent.com/1884712/121497169-03228680-c990-11eb-975a-e77fddc43de0.png)
+## Technologies
 
-## How to use
+The project is built using the following technologies:
 
-Click on the [Use Template](https://github.com/surjithctly/nextly-template/generate) button on this page to clone this respository to your github account. Or you can also clone this respository using terminal or bash. 
+- Next.js: A React framework for server-side rendering and building web applications.
+- Tailwind CSS: A utility-first CSS framework for rapidly designing and styling web interfaces.
 
-### 1\. Clone this Repository
+## Getting Started
 
-```bash
-git clone https://github.com/surjithctly/nextly-template.git
-```
+Follow these instructions to get the project up and running on your local machine.
 
-### 2\. Navigate to the directory
+### Prerequisites
 
-```
-cd nextly-template
-```
+- Node.js: Make sure you have Node.js installed. You can download it from [nodejs.org](https://nodejs.org/).
 
-### 3\. Install dependencies
+### Installation
 
-```
-yarn install
-# or
-npm install
-```
+1. Clone the repository:
 
-### 5\. Run Dev Server
+   ```bash
+   git clone https://github.com/your-username/organico.git
+   ```
 
-```
-yarn dev
-# or
-npm run dev
-```
+2. Navigate to the project directory:
+   `cd organico`
+3. Install dependencies:
+   `npm install`
 
-## Deploy with Vercel
+## Usage
 
-Deploy this template using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+To start the development server and view the landing page, run the following command:
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/surjithctly/nextly-template&project-name=nextly-template&repository-name=nextly-template)
+`npm run dev`
 
+Open your web browser and visit http://localhost:3000 to see the Organico landing page in action.
 
-## Author
+## Deployment
 
-Surjith S M ( [@surjithctly](https://surjithctly.in/) )
+Follow these steps to deploy the Organico landing page:
 
----
+1. Build the production-ready optimized version of the project:
+   `npm run build`
+2. Start the production server:
+   `npm run start`
 
-[![image](https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg)](https://vercel.com/?utm_source=web3templates&utm_campaign=oss)
+   By default, the production server will run on port 3000. You can configure the port by modifying the package.json file.
 
+## Contributing
 
+Contributions are welcome! If you'd like to contribute to the project, please follow these steps:
 
+1. Fork the repository.
+2. Create a new branch for your feature/bugfix: git checkout -b feature/your-feature-name.
+3. Make your changes and commit them: git commit -m "Add a new feature".
+4. Push to the branch: git push origin feature/your-feature-name.
+5. Submit a pull request detailing your changes.
 
+## License
+
+This project is licensed under the MIT License.
