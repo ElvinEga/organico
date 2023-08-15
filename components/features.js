@@ -36,7 +36,7 @@ const Myfeatures = (props) => {
                 <h2 class="text-lg text-gray-900 font-medium title-font mb-2">
                   Training and Support
                 </h2>
-                <p class="leading-relaxed text-base">
+                <p class="text-gray-500 dark:text-gray-400">
                   Our team offers thorough training, webinars, and support for a
                   seamless transition to digital farming.
                 </p>
@@ -62,7 +62,7 @@ const Myfeatures = (props) => {
                 <h2 class="text-lg text-gray-900 font-medium title-font mb-2">
                   Marketing Assistance
                 </h2>
-                <p class="leading-relaxed text-base">
+                <p class="text-gray-500 dark:text-gray-400">
                   We help farmers create compelling marketing materials and
                   listings to showcase their products and reach new customers.
                 </p>
@@ -87,7 +87,7 @@ const Myfeatures = (props) => {
                 <h2 class="text-lg text-gray-900 font-medium title-font mb-2">
                   Logistics and Delivery
                 </h2>
-                <p class="leading-relaxed text-base">
+                <p class="text-gray-500 dark:text-gray-400">
                   We partner with trusted logistics providers to ensure
                   efficient transportation and delivery of produce from farm to
                   table.
@@ -112,7 +112,7 @@ const Myfeatures = (props) => {
                 <h2 class="text-lg text-gray-900 font-medium title-font mb-2">
                   Quality Control
                 </h2>
-                <p class="leading-relaxed text-base">
+                <p class="text-gray-500 dark:text-gray-400">
                   Our quality control processes ensure that produce meets the
                   highest standards of freshness, taste, and safety.
                 </p>
@@ -136,7 +136,7 @@ const Myfeatures = (props) => {
                 <h2 class="text-lg text-gray-900 font-medium title-font mb-2">
                   Payment Processing
                 </h2>
-                <p class="leading-relaxed text-base">
+                <p class="text-gray-500 dark:text-gray-400">
                   We handle payment processing and transactions securely and
                   efficiently, so farmers get paid quickly .
                 </p>
@@ -160,7 +160,7 @@ const Myfeatures = (props) => {
                 <h2 class="text-lg text-gray-900 font-medium title-font mb-2">
                   Ramona Falls
                 </h2>
-                <p class="leading-relaxed text-base">
+                <p class="text-gray-500 dark:text-gray-400">
                   Fingerstache flexitarian street art 8-bit waist co, subway
                   tile poke farm.
                 </p>
