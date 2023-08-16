@@ -2,6 +2,12 @@
 
 Welcome to the README file for Organico, a landing site for a Smart Farming App. This project utilizes Next.js for frontend development and Tailwind CSS for styling. It is designed to showcase the features and benefits of the Smart Farming App, attracting potential users and investors.
 
+![Screenshot 2023-08-15 002932](https://github.com/ElvinEga/organico/assets/12608507/31197662-5267-41e6-b8f8-8a9dd79af5b4)
+
+## Demo URL
+
+[https://organico-delta.vercel.app/](https://organico-delta.vercel.app/)
+
 ## Technologies
 
 The project is built using the following technologies:
