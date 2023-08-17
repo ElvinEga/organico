@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Container from "./container";
 import heroImg from "../public/img/smiley_woman.jpg";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -16,14 +17,13 @@ const Hero = () => {
             </p>
 
             <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
-              <a
-                href="https://web3templates.com/templates/nextly-landing-page-template-for-startups"
-                target="_blank"
-                rel="noopener"
+              <Link
+                href="#contact"
+                scroll={false}
                 className="px-8 py-4 text-lg font-medium text-center text-white bg-green-600 rounded-md "
               >
                 Get Started
-              </a>
+              </Link>
             </div>
           </div>
         </div>
