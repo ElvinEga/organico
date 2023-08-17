@@ -10,7 +10,7 @@ const Contact = () => {
         questions you may have. Please fill out the form below and we'll get
         back to you as soon as possible.
       </SectionTitle>
-      <div class="lg:w-1/2 md:w-2/3 mx-auto">
+      <div class="lg:w-1/2 md:w-2/3 mx-auto" id="contact">
         <div class="flex flex-wrap -m-2">
           <div class="p-2 w-1/2">
             <div class="relative">
@@ -24,7 +24,7 @@ const Contact = () => {
                 type="text"
                 id="name"
                 name="name"
-                class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-green-500 focus:bg-white focus:ring-2 focus:ring-green-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 dark:border-gray-600 dark:bg-white focus:border-green-500 focus:bg-white focus:ring-2 focus:ring-green-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
               />
             </div>
           </div>
@@ -40,7 +40,7 @@ const Contact = () => {
                 type="email"
                 id="email"
                 name="email"
-                class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-green-500 focus:bg-white focus:ring-2 focus:ring-green-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 dark:border-gray-600 dark:bg-white focus:border-green-500 focus:bg-white focus:ring-2 focus:ring-green-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
               />
             </div>
           </div>
@@ -55,7 +55,7 @@ const Contact = () => {
               <textarea
                 id="message"
                 name="message"
-                class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-green-500 focus:bg-white focus:ring-2 focus:ring-green-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+                class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 dark:border-gray-600 dark:bg-white focus:border-green-500 focus:bg-white focus:ring-2 focus:ring-green-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
               ></textarea>
             </div>
           </div>

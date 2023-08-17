@@ -1,5 +1,6 @@
 import React from "react";
 import Container from "./container";
+import Link from "next/link";
 
 const Cta = () => {
   return (
@@ -15,14 +16,15 @@ const Cta = () => {
           </p>
         </div>
         <div className="flex-shrink-0 w-full text-center lg:w-auto">
-          <a
-            href="https://github.com/web3templates"
-            target="_blank"
-            rel="noopener"
+          <Link
+            href="#contact"
+            // target="_blank"
+            // rel="noopener"
+            scroll={false}
             className="inline-block py-3 mx-auto text-lg font-medium text-center text-green-600 bg-white rounded-md px-7 lg:px-10 lg:py-5 "
           >
             Get Started
-          </a>
+          </Link>
         </div>
       </div>
     </Container>

@@ -19,7 +19,7 @@ const Myfeatures = (props) => {
           </SectionTitle>
           <div class="flex flex-wrap -m-4">
             <div class="xl:w-1/3 md:w-1/2 p-4">
-              <div class="border border-gray-200 p-6 rounded-lg">
+              <div class="border border-gray-200 dark:border-gray-600 p-6 rounded-lg">
                 <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-green-100 text-green-500 mb-4">
                   <svg
                     fill="none"
@@ -43,7 +43,7 @@ const Myfeatures = (props) => {
               </div>
             </div>
             <div class="xl:w-1/3 md:w-1/2 p-4">
-              <div class="border border-gray-200 p-6 rounded-lg">
+              <div class="border border-gray-200 dark:border-gray-600 p-6 rounded-lg">
                 <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-green-100 text-green-500 mb-4">
                   <svg
                     fill="none"
@@ -69,7 +69,7 @@ const Myfeatures = (props) => {
               </div>
             </div>
             <div class="xl:w-1/3 md:w-1/2 p-4">
-              <div class="border border-gray-200 p-6 rounded-lg">
+              <div class="border border-gray-200 dark:border-gray-600 p-6 rounded-lg">
                 <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-green-100 text-green-500 mb-4">
                   <svg
                     fill="none"
@@ -95,7 +95,7 @@ const Myfeatures = (props) => {
               </div>
             </div>
             <div class="xl:w-1/3 md:w-1/2 p-4">
-              <div class="border border-gray-200 p-6 rounded-lg">
+              <div class="border border-gray-200 dark:border-gray-600 p-6 rounded-lg">
                 <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-green-100 text-green-500 mb-4">
                   <svg
                     fill="none"
@@ -119,7 +119,7 @@ const Myfeatures = (props) => {
               </div>
             </div>
             <div class="xl:w-1/3 md:w-1/2 p-4">
-              <div class="border border-gray-200 p-6 rounded-lg">
+              <div class="border border-gray-200 dark:border-gray-600 p-6 rounded-lg">
                 <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-green-100 text-green-500 mb-4">
                   <svg
                     fill="none"
@@ -143,7 +143,7 @@ const Myfeatures = (props) => {
               </div>
             </div>
             <div class="xl:w-1/3 md:w-1/2 p-4">
-              <div class="border border-gray-200 p-6 rounded-lg">
+              <div class="border border-gray-200 dark:border-gray-600 p-6 rounded-lg">
                 <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-green-100 text-green-500 mb-4">
                   <svg
                     fill="none"
@@ -161,9 +161,8 @@ const Myfeatures = (props) => {
                   Marketplace Connectivity
                 </h2>
                 <p class="text-gray-500 dark:text-gray-400">
-                  Our platform connects farmers directly with clients,
-                  eliminating intermediaries and maximizing profit margins for
-                  both parties.
+                  We Connect farmers directly with clients, eliminating
+                  intermediaries and maximizing profit margins for both parties.
                 </p>
               </div>
             </div>

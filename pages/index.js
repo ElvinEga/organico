@@ -35,9 +35,13 @@ const Home = () => {
         profits, all while providing clients with fresh, sustainable produce.
         Join our community today and be part of the agricultural revolution!
       </SectionTitle>
+      <div id="product"></div>
       <Benefits data={benefitOne} />
+      <div id="features"></div>
       <Myfeatures data={benefitOne} />
+      <div id="services"></div>
       <Benefits imgPos="right" data={benefitTwo} />
+      <div id="about"></div>
       <SectionTitle
         pretitle="Testimonials"
         title="Here's what our customers said"
