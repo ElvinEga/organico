@@ -14,7 +14,10 @@ const Contact = () => {
         <div class="flex flex-wrap -m-2">
           <div class="p-2 w-1/2">
             <div class="relative">
-              <label for="name" class="leading-7 text-sm text-gray-600">
+              <label
+                for="name"
+                class="leading-7 text-sm text-gray-600 dark:text-gray-200"
+              >
                 Name
               </label>
               <input
@@ -27,7 +30,10 @@ const Contact = () => {
           </div>
           <div class="p-2 w-1/2">
             <div class="relative">
-              <label for="email" class="leading-7 text-sm text-gray-600">
+              <label
+                for="email"
+                class="leading-7 text-sm text-gray-600 dark:text-gray-200"
+              >
                 Email
               </label>
               <input
@@ -40,7 +46,10 @@ const Contact = () => {
           </div>
           <div class="p-2 w-full">
             <div class="relative">
-              <label for="message" class="leading-7 text-sm text-gray-600">
+              <label
+                for="message"
+                class="leading-7 text-sm text-gray-600 dark:text-gray-200"
+              >
                 Message
               </label>
               <textarea
