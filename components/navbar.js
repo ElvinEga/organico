@@ -15,7 +15,7 @@ const Navbar = () => {
 
   return (
     <div className="w-full">
-      <nav className="container relative flex flex-wrap items-center justify-between p-8 mx-auto lg:justify-between xl:px-0">
+      <nav className="container">
         {/* Logo  */}
         <Disclosure>
           {({ open }) => (
@@ -77,10 +77,10 @@ const Navbar = () => {
                       </Link>
                     ))}
                     <Link
-                      href="/"
+                      href="https://github.com/ElvinEga/organico"
                       className="w-full px-6 py-2 mt-3 text-center text-white bg-green-600 rounded-md lg:ml-5"
                     >
-                      Get Started
+                      Download
                     </Link>
                   </>
                 </Disclosure.Panel>
@@ -109,10 +109,10 @@ const Navbar = () => {
         <div className="hidden mr-3 space-x-4 lg:flex nav__item">
           <ThemeChanger />
           <Link
-            href="/"
+            href="https://github.com/ElvinEga/organico"
             className="px-6 py-2 text-white bg-green-600 rounded-md md:ml-5"
           >
-            Get Started
+            Download
           </Link>
         </div>
       </nav>
